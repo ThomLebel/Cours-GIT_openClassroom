@@ -1,0 +1,47 @@
+-Cloner un répo :
+git clone "url du repo"
+
+-Créer un fichier :
+touch "nomDuFichier.extension"
+
+-Créer un dossier :
+mkdir "nom du dossier"
+
+-Modifier un fichier (avec sublime text)
+subl "fichier a modifier"
+
+-Activer un dossier comme repo :
+git init
+
+-Ajouter des fichiers à commit :
+git add "fichier à ajouter" --> ajoute un seul fichier
+git add . --> ajoute tt les fichiers du répertoire
+
+-Enregistrer les modifications(commit) :
+git commit --> enregistre sans commentaires
+git commit -m "commentaire" --> enregistre avec commentaire
+git commit -a --> ajoute les fichier puis commit
+
+-Envoyer ses commits sur github :
+git push origin master
+
+-Visualiser l'historique des commits :
+git log
+
+-Se positionner sur un commit :
+git checkout "SHA du commit" --> SHA = identifiant du commit
+
+-Se repositionner sur la branche principale :
+git checkout master
+
+-Annuler un commit (commit les modifications inverses en fait) :
+git revert "SHA du commit"
+
+-Modifier le commentaire d'un commit :
+git commit --amend -m "nouveau commentaire"
+
+-Annuler tout les changements non commit :
+git reset --hard
+
+-Mettre à jour son repo local :
+git pull origin master
