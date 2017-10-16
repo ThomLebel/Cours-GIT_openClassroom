@@ -1,0 +1,7 @@
+-Dans C:\Users\*MonProfil*
+-Créer un fichier .bash_profile : touch .bash_profile
+
+-Dans .bash_profile
+-Ajouter un alias : alias subl="/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"
+
+-utiliser subl "fichier à modifier" pour ouvrir le fichier dans sublime text
