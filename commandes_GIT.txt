@@ -20,7 +20,7 @@ git add . --> ajoute tt les fichiers du répertoire
 -Enregistrer les modifications(commit) :
 git commit --> enregistre sans commentaires
 git commit -m "commentaire" --> enregistre avec commentaire
-git commit -a --> ajoute les fichier puis commit
+git commit -a --> met à jour les fichiers déjà ajouté puis commit
 
 -Envoyer ses commits sur github :
 git push origin master
