@@ -4,4 +4,7 @@
 -Dans .bash_profile
 -Ajouter un alias : alias subl="/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"
 
+-Dans la console :
+git config --global core.editor "subl -n -w"
+
 -utiliser subl "fichier à modifier" pour ouvrir le fichier dans sublime text
