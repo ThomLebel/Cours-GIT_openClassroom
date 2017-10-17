@@ -45,3 +45,19 @@ git reset --hard
 
 -Mettre à jour son repo local :
 git pull origin master
+
+-Afficher les branches (* indique votre position):
+git branch
+
+-Créer une branche :
+git branch "nom de la branche"
+
+-Se positionner sur une branche :
+git checkout "nom de la branche"
+
+-Créer et se positionner dans une branche :
+git checkout -b "nom de la branche"
+
+-Fusionner 2 branches :
+(Dans branche A) git merge "branche B"
+
