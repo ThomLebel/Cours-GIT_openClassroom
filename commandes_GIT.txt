@@ -1,3 +1,13 @@
+https://gist.github.com/hofmannsven/6814451
+
+Pour des raisons de sécurité et de clarté, il est important d'ignorer certains fichiers dans Git, tels que :
+
+	-Tous les fichiers de configuration (config.xml, databases.yml, .env...)
+	-Les fichiers et dossiers temporaires (tmp, temp/...)
+	-Les fichiers inutiles comme ceux créés par votre IDE ou votre OS (.DS_Store, .project...)
+
+Le plus crucial est de ne JAMAIS versionner une variable de configuration, que ce soit un mot de passe, une clé secrète ou quoi que ce soit de ce type. Versionner une telle variable conduirait à une large faille de sécurité, surtout si vous mettez votre code en ligne sur GitHub !
+
 -Cloner un répo :
 git clone "url du repo"
 
@@ -61,3 +71,8 @@ git checkout -b "nom de la branche"
 -Fusionner 2 branches :
 (Dans branche A) git merge "branche B"
 
+-Afficher les modifications faites sur un fichier :
+git blame "fichier à inspecter"
+
+-Afficher les détails d'un commit :
+git show "SHA du commit"
